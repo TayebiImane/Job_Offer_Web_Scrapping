@@ -1,0 +1,1928 @@
+@relation Donnees_Pretraite
+
+@attribute site_name {Rekrute,marocemploi.net,talentspartners.com,www.moncallcenter.ma, Marocannonces.com,Emploi.ma,Anapec}
+@attribute ville{casablanca, inezganeaitmelloul, berkane, meknes, marrakech, agadir, eljadida, taroudant, tetouan, zagora, tanger, essaouira, kenitra, rabat, midelt, tinghir, ouarzazate, sidikacem, fes, nouaceur, mohammedia, sale, bouznika, chtoukaaitbaha, errachidia, azilal, benimellal, khouribga, darbouazza, laayoune, brussels, oujda, alhaouz, alhoceima, plusieursvilles, autreville}
+@attribute sector {commercial,education,informatique,agriculture,immobilier,accueil,santé,droit,transport,tourisme,comptabilité,industrie,biologie,marketing,restauration,agro,}
+@attribute Type_de_contrat {0,1,2,3,4,5,6,7,8}
+@attribute Language {français,néerlandais,italien,portugais,anglais,allemand,arabe,tarifit,tamazight}
+@attribute Experience_level numeric
+@attribute Formation {Informatique,Assistant,Cuisinier,SAV,Enseignement,RH,Commercial,Qualité,Ingénierie,Production,Marketing,Comptabilité,BTP,Surveillance,Logistique, Achat,Import,Bureau,Manager,Santé,Juridique,Mécanicien}
+@attribute Salaire numeric
+@attribute Travail_a_distance {0,1,2,3}
+
+@data
+Anapec,mohammedia,industrie,2,arabe,7,Informatique,4000,0
+Anapec,autreville,education,1,arabe,1,Informatique,4000,0
+Anapec,mohammedia,industrie,2,arabe,7,Informatique,4000,0
+Anapec,tetouan,education,1,anglais,6,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,tetouan,education,1,anglais,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,7,Informatique,4000,0
+Anapec,agadir,industrie,2,arabe,6,Informatique,4000,0
+Anapec,eljadida,industrie,2,arabe,6,Informatique,4000,0
+Anapec,autreville,education,1,arabe,1,Informatique,4000,0
+Anapec,autreville,santé,8,tamazight,6,Informatique,4000,0
+Anapec,autreville,education,2,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,2,anglais,1,Informatique,4000,0
+Anapec,oujda,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,rabat,santé,1,arabe,6,Informatique,4000,0
+Anapec,berkane,industrie,2,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,3,Informatique,4000,0
+Anapec,fes,santé,8,arabe,6,Informatique,4000,0
+Anapec,eljadida,agriculture,1,arabe,2,Informatique,4000,0
+Anapec,marrakech,santé,2,arabe,7,Informatique,4000,0
+Anapec,eljadida,industrie,8,arabe,7,Informatique,4000,0
+Anapec,agadir,industrie,2,arabe,1,Informatique,4000,0
+Anapec,autreville,agriculture,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,anglais,1,Informatique,4000,0
+Anapec,autreville,education,2,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,2,anglais,1,Informatique,4000,0
+Anapec,oujda,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,7,Informatique,4000,0
+Anapec,autreville,education,2,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,2,anglais,1,Informatique,4000,0
+Anapec,oujda,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,1,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,1,arabe,6,Informatique,4000,0
+Anapec,berkane,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,1,Informatique,4000,0
+Anapec,marrakech,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,taroudant,industrie,2,arabe,7,Informatique,4000,0
+Anapec,taroudant,industrie,2,arabe,7,Informatique,4000,0
+Anapec,ouarzazate,industrie,2,arabe,6,Informatique,4000,0
+Anapec,ouarzazate,industrie,2,arabe,6,Informatique,4000,0
+Anapec,autreville,santé,1,arabe,1,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,1,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,1,arabe,6,Informatique,4000,0
+Anapec,berkane,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,1,Informatique,4000,0
+Anapec,marrakech,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,1,Informatique,4000,0
+Anapec,marrakech,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,2,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,1,Informatique,4000,0
+Anapec,casablanca,industrie,2,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,1,arabe,6,Informatique,4000,0
+Anapec,meknes,education,1,arabe,2,Informatique,4000,0
+Anapec,agadir,education,1,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Anapec,eljadida,santé,8,arabe,7,Informatique,4000,0
+Anapec,taroudant,agriculture,8,arabe,6,Informatique,4000,0
+Anapec,tetouan,industrie,1,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,zagora,industrie,2,arabe,7,Informatique,4000,0
+Anapec,tetouan,industrie,1,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,anglais,1,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,1,Informatique,4000,0
+Anapec,casablanca,industrie,2,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,1,arabe,6,Informatique,4000,0
+Anapec,meknes,education,1,arabe,2,Informatique,4000,0
+Anapec,agadir,education,1,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Anapec,eljadida,santé,8,arabe,7,Informatique,4000,0
+Anapec,taroudant,agriculture,8,arabe,6,Informatique,4000,0
+Anapec,tetouan,industrie,1,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Anapec,eljadida,santé,8,arabe,7,Informatique,4000,0
+Anapec,taroudant,agriculture,8,arabe,6,Informatique,4000,0
+Anapec,tetouan,industrie,1,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,kenitra,santé,2,arabe,6,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,agadir,agriculture,1,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,2,anglais,7,Informatique,4000,0
+Anapec,meknes,industrie,8,arabe,2,Informatique,4000,0
+Anapec,marrakech,industrie,2,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,6,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,2,arabe,7,Informatique,4000,0
+Anapec,khouribga,industrie,7,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,8,arabe,1,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,kenitra,santé,2,arabe,6,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,agadir,agriculture,1,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,2,anglais,7,Informatique,4000,0
+Anapec,meknes,industrie,8,arabe,2,Informatique,4000,0
+Anapec,marrakech,industrie,2,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,kenitra,santé,2,arabe,6,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,agadir,agriculture,1,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,2,anglais,7,Informatique,4000,0
+Anapec,meknes,industrie,8,arabe,2,Informatique,4000,0
+Anapec,marrakech,industrie,2,arabe,6,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,midelt,industrie,2,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,agadir,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,3,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,2,Informatique,4000,0
+Anapec,tinghir,industrie,8,tamazight,7,Informatique,4000,0
+Anapec,marrakech,industrie,7,arabe,7,Informatique,4000,0
+Anapec,casablanca,santé,8,arabe,7,Informatique,4000,0
+Anapec,agadir,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,3,Informatique,4000,0
+Anapec,autreville,santé,1,arabe,3,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,3,Informatique,4000,0
+Anapec,casablanca,agriculture,2,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,eljadida,industrie,1,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,1,anglais,2,Informatique,4000,0
+Anapec,alhaouz,industrie,7,arabe,7,Informatique,4000,0
+Anapec,alhoceima,industrie,8,tarifit,6,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,eljadida,industrie,1,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,1,anglais,2,Informatique,4000,0
+Anapec,alhaouz,industrie,7,arabe,7,Informatique,4000,0
+Anapec,alhoceima,industrie,8,tarifit,6,Informatique,4000,0
+Anapec,azilal,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,1,arabe,1,Informatique,4000,0
+Anapec,kenitra,industrie,8,arabe,6,Informatique,4000,0
+Anapec,autreville,santé,8,arabe,7,Informatique,4000,0
+Anapec,tinghir,agriculture,2,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,errachidia,agriculture,2,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,1,Informatique,4000,0
+Anapec,agadir,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,errachidia,agriculture,2,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,1,Informatique,4000,0
+Anapec,agadir,industrie,8,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,7,Informatique,4000,0
+Anapec,taroudant,industrie,8,arabe,1,Informatique,4000,0
+Anapec,taroudant,industrie,8,arabe,1,Informatique,4000,0
+Anapec,kenitra,industrie,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,2,Informatique,4000,0
+Anapec,rabat,industrie,7,arabe,7,Informatique,4000,0
+Anapec,rabat,industrie,7,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,eljadida,industrie,8,arabe,6,Informatique,4000,0
+Anapec,autreville,education,8,arabe,7,Informatique,4000,0
+Anapec,casablanca,industrie,8,arabe,2,Informatique,4000,0
+Anapec,rabat,industrie,7,arabe,7,Informatique,4000,0
+Anapec,rabat,industrie,7,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,2,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,eljadida,industrie,8,arabe,6,Informatique,4000,0
+Anapec,autreville,education,8,arabe,7,Informatique,4000,0
+Anapec,ouarzazate,education,2,arabe,6,Informatique,4000,0
+Anapec,tetouan,industrie,1,anglais,2,Informatique,4000,0
+Anapec,meknes,industrie,7,arabe,7,Informatique,4000,0
+Anapec,sidikacem,industrie,8,arabe,7,Informatique,4000,0
+Anapec,eljadida,education,8,arabe,7,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,ouarzazate,agriculture,2,arabe,6,Informatique,4000,0
+Anapec,autreville,santé,1,arabe,3,Informatique,4000,0
+Anapec,autreville,santé,7,arabe,2,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,meknes,industrie,7,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,3,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,2,anglais,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,tetouan,industrie,1,anglais,2,Informatique,4000,0
+Anapec,meknes,industrie,7,arabe,7,Informatique,4000,0
+Anapec,sidikacem,industrie,8,arabe,7,Informatique,4000,0
+Anapec,eljadida,education,8,arabe,7,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,ouarzazate,agriculture,2,arabe,6,Informatique,4000,0
+Anapec,meknes,industrie,7,arabe,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,3,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,marrakech,industrie,2,anglais,7,Informatique,4000,0
+Anapec,autreville,industrie,8,arabe,7,Informatique,4000,0
+Anapec,tetouan,industrie,1,anglais,2,Informatique,4000,0
+Anapec,meknes,industrie,7,arabe,7,Informatique,4000,0
+Anapec,sidikacem,industrie,8,arabe,7,Informatique,4000,0
+Anapec,eljadida,education,8,arabe,7,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,ouarzazate,agriculture,2,arabe,6,Informatique,4000,0
+Anapec,rabat,industrie,8,arabe,6,Informatique,4000,0
+Anapec,marrakech,industrie,1,arabe,1,Informatique,4000,0
+Anapec,marrakech,industrie,8,arabe,7,Informatique,4000,0
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,darbouazza,industrie,1,arabe,7,Informatique,4000,1
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,7000.0,1
+Emploi.ma,darbouazza,industrie,7,arabe,7,Informatique,4000,1
+Emploi.ma,laayoune,industrie,1,arabe,7,Informatique,4500.0,0
+Emploi.ma,brussels,industrie,1,arabe,7,Informatique,4000,1
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Emploi.ma,rabat,industrie,1,arabe,7,Informatique,5500.0,1
+Emploi.ma,rabat,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,rabat,industrie,7,arabe,7,Informatique,9000.0,0
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Emploi.ma,marrakech,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,marrakech,industrie,7,arabe,7,Informatique,7000.0,1
+Emploi.ma,autreville,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,laayoune,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,marrakech,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,oujda,industrie,1,arabe,7,Informatique,4000,0
+Emploi.ma,casablanca,industrie,1,arabe,7,Informatique,9000.0,1
+Emploi.ma,fes,industrie,1,arabe,7,Informatique,4000,1
+Emploi.ma,autreville,industrie,2,arabe,7,Informatique,7000.0,0
+Emploi.ma,autreville,industrie,1,arabe,7,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,3,arabe,7,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,3
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,3,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,1,Informatique,4000,2
+ Marocannonces.com,agadir,education,3,arabe,7,Assistant,4000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Cuisinier,3500.0,0
+ Marocannonces.com,marrakech,industrie,2,arabe,7,SAV,3500.0,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Cuisinier,5000.0,0
+ Marocannonces.com,marrakech,industrie,2,arabe,7,Enseignement,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,RH,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,RH,5000,0
+ Marocannonces.com,casablanca,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,marrakech,tourisme,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,sale,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,agadir,industrie,0,arabe,7,Qualité,5000,0
+ Marocannonces.com,casablanca,education,6,arabe,7,Enseignement,5000,0
+ Marocannonces.com,rabat,accueil,6,arabe,7,Assistant,5000.0,0
+ Marocannonces.com,marrakech,education,6,arabe,7,RH,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Informatique,5000,0
+ Marocannonces.com,eljadida,industrie,1,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,casablanca,education,2,arabe,7,Enseignement,5000,0
+ Marocannonces.com,rabat,industrie,1,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,casablanca,santé,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,autreville,commercial,0,arabe,7,Production,2500.0,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,meknes,accueil,6,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,rabat,industrie,6,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,bouznika,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,immobilier,1,arabe,7,Marketing,5000,0
+ Marocannonces.com,casablanca,immobilier,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,commercial,0,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,rabat,industrie,6,arabe,7,Santé,5000,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Informatique,5000.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,RH,5000.0,0
+ Marocannonces.com,autreville,education,1,arabe,7,Enseignement,5000,0
+ Marocannonces.com,autreville,commercial,1,arabe,7,Commercial,7000.0,0
+ Marocannonces.com,agadir,industrie,1,arabe,7,Marketing,20000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,BTP,5000.0,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Surveillance,2500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,RH,10000,0
+ Marocannonces.com,agadir,agriculture,0,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,meknes,education,6,arabe,7,Enseignement,4000,0
+ Marocannonces.com,bouznika,industrie,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Commercial,5000.0,0
+ Marocannonces.com,mohammedia,industrie,1,arabe,7,Import,5000,0
+ Marocannonces.com,sale,industrie,1,arabe,7,RH,5000.0,0
+ Marocannonces.com,sale,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Cuisinier,2500.0,0
+ Marocannonces.com,eljadida,industrie,0,arabe,7,Ingénierie,9000.0,0
+ Marocannonces.com,marrakech,comptabilité,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Bureau,10000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Achat,5000.0,0
+ Marocannonces.com,agadir,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,rabat,marketing,1,arabe,7,Marketing,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,agadir,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,rabat,marketing,1,arabe,7,Marketing,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,rabat,marketing,1,arabe,7,Marketing,5000,0
+ Marocannonces.com,autreville,santé,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,rabat,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Surveillance,3500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Surveillance,3500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Surveillance,9000.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,autreville,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,casablanca,industrie,2,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,marrakech,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,comptabilité,3,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,comptabilité,0,arabe,7,Informatique,5000,0
+ Marocannonces.com,autreville,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,marrakech,tourisme,0,arabe,7,Cuisinier,2500.0,0
+ Marocannonces.com,autreville,immobilier,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,tourisme,6,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,marrakech,industrie,1,arabe,7,Informatique,3500.0,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,immobilier,1,arabe,7,Bureau,5000,0
+ Marocannonces.com,rabat,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Import,5000,0
+ Marocannonces.com,autreville,immobilier,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,marrakech,tourisme,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,tourisme,6,arabe,7,Manager,5000,0
+ Marocannonces.com,sale,industrie,0,arabe,7,Production,2500.0,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,autreville,tourisme,1,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,autreville,informatique,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,tourisme,6,arabe,7,Cuisinier,4000,0
+ Marocannonces.com,casablanca,droit,3,arabe,7,Assistant,5000,0
+ Marocannonces.com,agadir,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,bouznika,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,autreville,tourisme,1,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,bouznika,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,autreville,tourisme,1,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,santé,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,mohammedia,comptabilité,0,arabe,7,Informatique,9000.0,0
+ Marocannonces.com,nouaceur,industrie,0,arabe,7,Production,5000,0
+ Marocannonces.com,eljadida,transport,0,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,transport,0,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,transport,0,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,agadir,comptabilité,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Bureau,2500.0,0
+ Marocannonces.com,casablanca,commercial,0,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,0,arabe,7,Assistant,2500.0,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Production,3500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,marrakech,commercial,1,arabe,7,Marketing,5000.0,0
+ Marocannonces.com,marrakech,industrie,6,arabe,7,Bureau,5000,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,immobilier,0,arabe,7,Commercial,5000,0
+ Marocannonces.com,eljadida,industrie,1,arabe,7,Bureau,5000.0,0
+ Marocannonces.com,marrakech,accueil,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,agadir,accueil,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,autreville,santé,0,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,commercial,0,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,sale,industrie,1,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,casablanca,tourisme,1,arabe,7,Informatique,30000,0
+ Marocannonces.com,autreville,tourisme,1,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Juridique,5000,0
+ Marocannonces.com,marrakech,industrie,0,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,mohammedia,industrie,0,arabe,7,Informatique,5000.0,0
+ Marocannonces.com,marrakech,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,informatique,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,informatique,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Bureau,5000,0
+ Marocannonces.com,casablanca,santé,6,arabe,7,Informatique,5000.0,0
+ Marocannonces.com,casablanca,agriculture,0,arabe,7,Production,2500.0,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Achat,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,tetouan,industrie,2,arabe,7,BTP,5000,0
+ Marocannonces.com,tetouan,industrie,2,arabe,7,BTP,5000,0
+ Marocannonces.com,tetouan,industrie,2,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Logistique,4000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Qualité,4000,0
+ Marocannonces.com,casablanca,education,1,arabe,7,Enseignement,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Achat,5000,0
+ Marocannonces.com,marrakech,industrie,0,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Import,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,agadir,accueil,0,arabe,7,Import,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Import,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,agadir,accueil,0,arabe,7,Import,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,marrakech,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,agadir,agriculture,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,marketing,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Production,5000,0
+ Marocannonces.com,mohammedia,industrie,1,arabe,7,Qualité,10000,0
+ Marocannonces.com,autreville,santé,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,rabat,transport,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,rabat,tourisme,0,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,casablanca,tourisme,1,arabe,7,Qualité,2500.0,0
+ Marocannonces.com,casablanca,transport,0,arabe,7,Logistique,2500.0,0
+ Marocannonces.com,marrakech,industrie,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,commercial,3,arabe,7,Commercial,2500.0,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Production,5000,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Informatique,3500.0,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,3500.0,0
+ Marocannonces.com,casablanca,comptabilité,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,agriculture,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,rabat,industrie,1,arabe,7,Marketing,5000,0
+ Marocannonces.com,rabat,industrie,1,arabe,7,Enseignement,5000,0
+ Marocannonces.com,rabat,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,marrakech,agriculture,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,rabat,industrie,0,arabe,7,Commercial,5000,0
+ Marocannonces.com,autreville,education,1,arabe,7,Assistant,5000.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Santé,5000,0
+ Marocannonces.com,agadir,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,agadir,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Logistique,5000,0
+ Marocannonces.com,agadir,droit,1,arabe,7,Juridique,5000,0
+ Marocannonces.com,autreville,accueil,6,arabe,7,Assistant,5000.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Logistique,5000,0
+ Marocannonces.com,marrakech,education,1,arabe,7,Enseignement,7000.0,0
+ Marocannonces.com,rabat,transport,6,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,fes,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,autreville,commercial,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,meknes,comptabilité,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,santé,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,meknes,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,tetouan,industrie,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,marrakech,education,1,arabe,7,RH,5000,0
+ Marocannonces.com,rabat,industrie,6,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,agriculture,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,meknes,industrie,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,nouaceur,industrie,6,arabe,7,RH,5000,0
+ Marocannonces.com,casablanca,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,immobilier,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,agadir,agriculture,1,arabe,7,Import,5000.0,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,RH,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,accueil,6,arabe,7,Assistant,7000.0,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,rabat,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,marrakech,informatique,3,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,accueil,6,arabe,7,Santé,5000,0
+ Marocannonces.com,rabat,informatique,1,arabe,7,Informatique,7000.0,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,industrie,3,arabe,7,Production,5000,0
+ Marocannonces.com,autreville,immobilier,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,mohammedia,accueil,6,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Commercial,4000,0
+ Marocannonces.com,marrakech,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,tetouan,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,marrakech,accueil,1,arabe,7,Assistant,7000.0,0
+ Marocannonces.com,casablanca,immobilier,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,comptabilité,3,arabe,7,Informatique,4000,0
+ Marocannonces.com,marrakech,biologie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,education,1,arabe,7,Marketing,7000.0,0
+ Marocannonces.com,rabat,industrie,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,fes,industrie,2,arabe,7,Production,5000,0
+ Marocannonces.com,agadir,accueil,1,arabe,7,Assistant,2500.0,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,RH,5000,0
+ Marocannonces.com,marrakech,marketing,2,arabe,7,Marketing,3500.0,0
+ Marocannonces.com,rabat,education,6,arabe,7,Enseignement,5000,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,BTP,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Surveillance,5000,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,2500.0,0
+ Marocannonces.com,rabat,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000.0,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,marrakech,commercial,0,arabe,7,Assistant,4000,0
+ Marocannonces.com,casablanca,accueil,6,arabe,7,Assistant,2500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,autreville,education,6,arabe,7,Enseignement,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Informatique,5000,0
+ Marocannonces.com,autreville,commercial,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,rabat,education,1,arabe,7,Enseignement,5000,0
+ Marocannonces.com,autreville,industrie,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,SAV,5000,0
+ Marocannonces.com,tetouan,industrie,2,arabe,7,Commercial,5000.0,0
+ Marocannonces.com,rabat,comptabilité,3,arabe,7,Informatique,5000,0
+ Marocannonces.com,mohammedia,comptabilité,0,arabe,7,Informatique,3500.0,0
+ Marocannonces.com,casablanca,comptabilité,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,fes,accueil,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,agadir,agriculture,1,arabe,7,Import,7000.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,fes,accueil,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,agadir,agriculture,1,arabe,7,Import,7000.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,immobilier,1,arabe,7,Surveillance,4000,0
+ Marocannonces.com,casablanca,education,2,arabe,7,Enseignement,5000,0
+ Marocannonces.com,rabat,tourisme,0,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,rabat,industrie,0,arabe,7,BTP,5000,0
+ Marocannonces.com,bouznika,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,RH,5000,0
+ Marocannonces.com,marrakech,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,autreville,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,marrakech,tourisme,6,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,marrakech,tourisme,6,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,mohammedia,industrie,1,arabe,7,Production,5000.0,0
+ Marocannonces.com,casablanca,santé,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,sale,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,mohammedia,accueil,1,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,casablanca,droit,1,arabe,7,Juridique,5000.0,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,sale,education,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Assistant,7000.0,0
+ Marocannonces.com,marrakech,tourisme,6,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,eljadida,industrie,2,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Achat,5000,0
+ Marocannonces.com,casablanca,transport,1,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Qualité,5000.0,0
+ Marocannonces.com,marrakech,commercial,6,arabe,7,Commercial,2500.0,0
+ Marocannonces.com,marrakech,tourisme,6,arabe,7,Qualité,5000,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,Achat,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Mécanicien,2500.0,0
+ Marocannonces.com,casablanca,comptabilité,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Commercial,5000.0,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,marrakech,commercial,1,arabe,7,Commercial,3500.0,0
+ Marocannonces.com,casablanca,accueil,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,marrakech,industrie,6,arabe,7,Informatique,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,RH,7000.0,0
+ Marocannonces.com,rabat,industrie,6,arabe,7,Bureau,5000,0
+ Marocannonces.com,marrakech,commercial,2,arabe,7,Assistant,3500.0,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,commercial,6,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,comptabilité,1,arabe,7,Informatique,10000,0
+ Marocannonces.com,autreville,industrie,6,arabe,7,Surveillance,5000,0
+ Marocannonces.com,marrakech,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,bouznika,tourisme,1,arabe,7,Manager,5000.0,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Marketing,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Logistique,5000,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,RH,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,tourisme,1,arabe,7,Manager,5000.0,0
+ Marocannonces.com,tetouan,tourisme,1,arabe,7,Manager,5000.0,0
+ Marocannonces.com,marrakech,tourisme,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,1,arabe,7,Production,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Production,2500.0,0
+ Marocannonces.com,casablanca,informatique,0,arabe,7,Informatique,4000,0
+ Marocannonces.com,rabat,biologie,1,arabe,7,Qualité,5000,0
+ Marocannonces.com,fes,tourisme,1,arabe,7,Manager,5000.0,0
+ Marocannonces.com,casablanca,commercial,1,arabe,7,Commercial,5000,0
+ Marocannonces.com,casablanca,industrie,6,arabe,7,Commercial,9000.0,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Informatique,7000.0,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Commercial,5000,0
+ Marocannonces.com,rabat,tourisme,1,arabe,7,Manager,5000.0,0
+ Marocannonces.com,rabat,transport,1,arabe,7,Logistique,5000,0
+ Marocannonces.com,casablanca,education,2,arabe,7,Enseignement,5000,0
+ Marocannonces.com,casablanca,industrie,0,arabe,7,Production,2500.0,0
+ Marocannonces.com,nouaceur,industrie,0,arabe,7,Ingénierie,5000,0
+ Marocannonces.com,rabat,industrie,1,arabe,7,Achat,5000,0
+ Marocannonces.com,autreville,marketing,6,arabe,7,Enseignement,5000,0
+ Marocannonces.com,autreville,industrie,1,arabe,7,Assistant,5000,0
+ Marocannonces.com,casablanca,tourisme,0,arabe,7,Cuisinier,5000,0
+ Marocannonces.com,casablanca,tourisme,0,arabe,7,Bureau,5000,0
+ Marocannonces.com,tetouan,industrie,6,arabe,7,Commercial,5000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,eljadida,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,sale,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,meknes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,allemand,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,meknes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,anglais,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,portugais,7,Informatique,4000,0
+www.moncallcenter.ma,meknes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,italien,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,néerlandais,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,néerlandais,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,néerlandais,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,néerlandais,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,néerlandais,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,anglais,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,eljadida,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,oujda,informatique,0,néerlandais,7,Informatique,4000,0
+www.moncallcenter.ma,tetouan,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,italien,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,allemand,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,mohammedia,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,anglais,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,arabe,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,meknes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,mohammedia,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,agadir,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,kenitra,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,fes,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,meknes,informatique,0,arabe,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,rabat,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,arabe,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,arabe,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,arabe,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,autreville,informatique,0,anglais,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,casablanca,informatique,0,français,7,Informatique,4000,0
+www.moncallcenter.ma,marrakech,informatique,0,français,7,Informatique,4000,0
+talentspartners.com,autreville,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,autreville,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,rabat,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,fes,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,fes,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,autreville,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,fes,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,kenitra,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,kenitra,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,rabat,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,rabat,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,mohammedia,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,autreville,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,0,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,eljadida,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,mohammedia,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,autreville,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,immobilier,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,rabat,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,agriculture,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+talentspartners.com,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,marketing,2,arabe,7,Informatique,4000,0
+marocemploi.net,marrakech,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,marrakech,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,marrakech,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,restauration,1,arabe,7,Informatique,4000,0
+marocemploi.net,agadir,agriculture,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,0,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,fes,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,marrakech,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,industrie,3,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,marrakech,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,santé,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,industrie,0,arabe,7,Informatique,4000,0
+marocemploi.net,agadir,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,agadir,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,agadir,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,agro,2,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,3,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,agadir,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,agadir,industrie,2,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,informatique,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,meknes,agro,2,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,santé,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,rabat,industrie,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,mohammedia,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,autreville,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,casablanca,agro,1,arabe,7,Informatique,4000,0
+marocemploi.net,mohammedia,agro,1,arabe,7,Informatique,4000,0
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,3,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,7,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,5,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,3,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,0,arabe,1,Commercial,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,comptabilité,1,arabe,1,RH,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,informatique,1,arabe,5,Informatique,4000,2
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
+Rekrute,casablanca,industrie,1,arabe,1,Informatique,4000,1
